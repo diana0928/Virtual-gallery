@@ -9,17 +9,20 @@
      <fade-transition>
       <router-view/>
     </fade-transition>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 import {FadeTransition} from 'vue2-transitions'
 export default {
   components: {
     Header,
-    FadeTransition
+    FadeTransition,
+    Footer
 }
 }
 </script>
